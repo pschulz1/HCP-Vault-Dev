@@ -11,5 +11,5 @@ This module is inteneded to create a HCP Vault "dev" cluster, to be used in the 
 
 1. export HCP_CLIENT_ID and HCP_CLIENT_SECRET with respective values
 2. terraform apply -auto-approve
-3. terraform output -json (Will show also sensitve outputs!)
+3. terraform output -json (Will show also sensitve outputs!!!)
 

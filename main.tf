@@ -12,5 +12,5 @@ resource "hcp_vault_cluster" "crdb_hcp_vault" {
 }
 resource "hcp_vault_cluster_admin_token" "admin" {
   cluster_id = hcp_vault_cluster.crdb_hcp_vault.cluster_id
-  #Get token for later use from state or add an ouput? Token will expire after 6 hrs.
+  #Get token for later use from state or add an ouput? Token will expire after 6 hrs
 }
