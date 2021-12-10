@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "hcp" {
-# export HCP_CLIENT_ID and HCP_CLIENT_SECRET with respective values - see readme for details
+  # export HCP_CLIENT_ID and HCP_CLIENT_SECRET with respective values - see readme for details
 }

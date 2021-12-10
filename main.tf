@@ -5,9 +5,9 @@ resource "hcp_hvn" "crdb_hcp_vault" {
 }
 
 resource "hcp_vault_cluster" "crdb_hcp_vault" {
-  hvn_id     = hcp_hvn.crdb_hcp_vault.hvn_id
-  cluster_id = var.cluster_id
-  tier       = var.tier
+  hvn_id          = hcp_hvn.crdb_hcp_vault.hvn_id
+  cluster_id      = var.cluster_id
+  tier            = var.tier
   public_endpoint = true
 }
 resource "hcp_vault_cluster_admin_token" "admin" {
